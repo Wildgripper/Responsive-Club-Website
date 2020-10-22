@@ -84,11 +84,11 @@ li a {
 }
 
 .quote {
-    height: 20rem;
+    /* height: 20rem; */
     margin: 5rem 0;
     background-color: teal;
     color: yellow;
-    padding: 2%;
+    padding: 4% 2%;
 }
 
 .quote h1 {
