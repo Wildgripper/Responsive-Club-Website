@@ -1,0 +1,131 @@
+/* Universal styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: lightsalmon;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav {
+    margin: 0;
+    /* border: 2px solid black; */
+    height: 4rem;
+}
+
+nav ul {
+    /* padding: 2% 0; */
+    /* border: 2px solid black; */
+    padding: 1rem 0;
+    background-color: teal;
+    /* text-align: center; */
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 4%;
+    line-height: 1.5;
+}
+
+li a {
+    text-decoration: none;
+    color: coral;
+    font-size: 1.1rem;
+}
+
+.title {
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: Coral;
+    text-align: center;
+    padding: 1% 0;
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+.title h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.join {
+    margin: 0 2%;
+}
+
+.join h2 {
+    color: yellow;
+    font-size: 1.6rem;
+}
+
+.join p {
+    color: white;
+}
+
+.container {
+    margin: 4rem auto;
+}
+
+.container img {
+    display: block;
+    width: 28%;
+    margin: 0 2%;
+    float: left;
+}
+
+.quote {
+    height: 20rem;
+    margin: 5rem 0;
+    background-color: teal;
+    color: yellow;
+    padding: 2%;
+}
+
+.quote h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.last-container {
+    margin: 5rem 0;
+    text-align: center;
+    color: yellow;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.last-container img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 650px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .container img {
+        /* display: block; */
+        width: 100%;
+        margin: 2% 0;
+        /* float: left; */
+    }
+    
+}
